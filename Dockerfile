@@ -1,5 +1,5 @@
 FROM alpine
 
-run apk update \
-        upgrade \
-        add nano
+RUN apk --update \
+            add nano
+
